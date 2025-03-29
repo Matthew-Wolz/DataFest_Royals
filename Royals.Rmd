@@ -1,0 +1,26 @@
+---
+title: "DataFest Training Baseball Data Set"
+author: "Matthew Wolz"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+data_baseball <- read_csv("C:/Users/wolzi/Desktop/Classes/DATA429/statcast_pitch_swing_data_20240402_20241030_with_arm_angle.csv")
+
+View(data_baseball)
+```
+```{r}
+data_baseball_clean <- data_baseball %>% 
+  select()
+```
+
